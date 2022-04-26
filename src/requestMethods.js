@@ -14,9 +14,8 @@ import authHeader from "./auth-header";
 
 const url = "https://nodejs-ecommerce-api-mongodb.joseyzambranov.repl.co/api/";
 
-//const TOKEN = authHeader()//JSON.parse(JSON.parse(localStorage.getItem("persist:root")).user).currentUser.accessToken
-
-
+//const TOKEN = authHeader()
+//console.log(TOKEN)
 
 export const publicRequest = axios.create({
     baseURL:url,
