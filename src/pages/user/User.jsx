@@ -14,7 +14,7 @@ import { updateUser } from "../../redux/apiCalls";
 import Form from "react-validation/build/form";
 import Input from "react-validation/build/input";
 import CheckButton from "react-validation/build/button";
-import { isEmail } from "validator";
+
 
 const required = value => {
   if (!value ) {
@@ -27,7 +27,7 @@ const required = value => {
 };
 
 export default function User() {
-  const {isFetching,error} = useSelector((state)=>state.user);
+  const {isFetching} = useSelector((state)=>state.user);
   const form = useRef();
   const checkBtn = useRef();
   const location = useLocation();

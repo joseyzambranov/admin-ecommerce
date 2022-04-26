@@ -2,7 +2,6 @@ import "./featuredInfo.css";
 import { ArrowDownward, ArrowUpward } from "@material-ui/icons";
 import { useState } from "react";
 import { useEffect } from "react";
-import { userRequest } from "../../requestMethods";
 import { useDispatch, useSelector } from "react-redux";
 import { getIncome } from "../../redux/apiCalls";
 
