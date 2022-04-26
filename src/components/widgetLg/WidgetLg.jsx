@@ -1,6 +1,6 @@
 import "./widgetLg.css";
-import {useState,useEffect} from "react"
-import { userRequest } from "../../requestMethods";
+import {useEffect} from "react"
+
 import { format } from 'timeago.js';
 import { useDispatch, useSelector } from "react-redux";
 import { getOrder } from "../../redux/apiCalls";

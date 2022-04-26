@@ -28,7 +28,7 @@ const required = value => {
 
 export default function Product() {
 
-  const {isFetching,error} = useSelector((state)=>state.product);
+  const {isFetching} = useSelector((state)=>state.product);
   const form = useRef();
   const checkBtn = useRef();
     const location = useLocation();

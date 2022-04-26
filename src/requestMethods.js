@@ -12,17 +12,17 @@ import authHeader from "./auth-header";
     }
   }*/
 
-const BASE_URL = "https://nodejs-ecommerce-api-mongodb.joseyzambranov.repl.co/api/";
+const url = "https://nodejs-ecommerce-api-mongodb.joseyzambranov.repl.co/api/";
 
-const TOKEN = authHeader()//JSON.parse(JSON.parse(localStorage.getItem("persist:root")).user).currentUser.accessToken
+//const TOKEN = authHeader()//JSON.parse(JSON.parse(localStorage.getItem("persist:root")).user).currentUser.accessToken
 
 
 
 export const publicRequest = axios.create({
-    baseURL:BASE_URL,
+    baseURL:url,
 })
 
 export const userRequest = axios.create({
-    baseURL:BASE_URL,
+    baseURL:url/*BASE_URL*/,
     headers:{token:`Bearer ${authHeader()}`}
 })

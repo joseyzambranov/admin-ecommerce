@@ -1,9 +1,7 @@
 import "./widgetSm.css";
 import { Visibility } from "@material-ui/icons";
-import { useEffect, useState } from "react";
-import { userRequest } from "../../requestMethods";
+import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useInsertionEffect } from "react";
 import { getNewUser } from "../../redux/apiCalls";
 
 export default function WidgetSm() {
@@ -27,7 +25,6 @@ const users = user;
   getUsers()
 },[])*/
 
-console.log(users)
   return (
     <div className="widgetSm">
       <span className="widgetSmTitle">New Join Members</span>

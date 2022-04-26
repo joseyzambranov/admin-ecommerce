@@ -26,7 +26,7 @@ export default function NewProduct() {
 
   const form = useRef();
   const checkBtn = useRef();
-  const {isFetching,error} = useSelector((state)=>state.product);
+  const {isFetching} = useSelector((state)=>state.product);
 
   const [inputs,setInput] = useState({});
   const [file,setFile]=useState(null);

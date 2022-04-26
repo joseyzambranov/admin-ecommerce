@@ -8,7 +8,7 @@ import { addUser } from "../../redux/apiCalls";
 import Form from "react-validation/build/form";
 import Input from "react-validation/build/input";
 import CheckButton from "react-validation/build/button";
-import { isEmail } from "validator";
+
 
 const required = value => {
   if (!value ) {
@@ -24,7 +24,7 @@ const required = value => {
 export default function NewUser() {
   const form = useRef();
   const checkBtn = useRef();
-const {isFetching,error} = useSelector((state)=>state.user);
+const {isFetching} = useSelector((state)=>state.user);
 const [inputs,setInputs]= useState({})
 const [file,setFile]=useState(null)
 const dispatch = useDispatch()
