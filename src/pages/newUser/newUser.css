@@ -15,18 +15,23 @@
   margin-right: 20px;
 }
 
-.newUserItem > label {
+.label {
   margin-bottom: 10px;
   font-size: 14px;
   font-weight: 600;
   color: rgb(151, 150, 150);
 }
 
-.newUserItem > input {
+.input {
   height: 20px;
   padding: 10px;
   border: 1px solid gray;
   border-radius: 5px;
+}
+.inputFile{
+  height: 20px;
+  padding: 10px;
+  
 }
 
 .newUserGender > input {

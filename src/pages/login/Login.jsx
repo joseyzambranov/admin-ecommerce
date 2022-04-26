@@ -1,24 +1,47 @@
-const { useState } = require("react")
+import { useState } from "react";
+import { useDispatch, } from "react-redux";
+import {login} from "../../redux/apiCalls";
+
+
+
+
 
 const Login =()=>{
     const [username,setUsername]=useState("");
     const [password,setUPassword]=useState("");
-    const handleClick =()=>{
-        e.preventDefault()
-    }
+    const dispatch = useDispatch()
+    
+
+    const handleClick =(e)=>{
+        //e.preventDefault()
+        login(dispatch,{username,password})
+    }   
+    
     return (
-        <div>
-            <imput 
+        <div style={{
+            height:"100vh",
+            display:"flex",
+            alignItems:"center",
+            flexDirection:"column",
+            justifyContent:"center"}}>
+            <input style={{
+                            padding:10,
+                            marginBottom:20
+                            }}
             type="text"
             placeholder = "username"
             onChange={(e)=>setUsername(e.target.value)} />
-            <imput 
+            <input style={{
+                            padding:10,
+                            marginBottom:20
+                            }}
             type="password"
             placeholder ="password"
             onChange={(e)=>setUPassword(e.target.value)} />
-            <button onClick={handleClick}>login</button>
+            <button style={{padding:10,width:100,cursor:"pointer"}} onClick={handleClick}>login</button>
         </div>
     )
+                        
 }
 
 export default Login
