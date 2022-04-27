@@ -14,7 +14,7 @@ import authHeader from "./auth-header";
 
 const url = "https://nodejs-ecommerce-api-mongodb.joseyzambranov.repl.co/api/";
 
-//const TOKEN = authHeader()
+const TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDc2OWY0MmFiZDY3ODNlYmRiMGMxYSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY1MTAxOTQ3MSwiZXhwIjoxNjUxMjc4NjcxfQ.LKqnVIn1N2dDDkn-DiXhYWgfmP79VpEctEaVM9_lnTw"
 //console.log(TOKEN)
 
 export const publicRequest = axios.create({
@@ -23,5 +23,5 @@ export const publicRequest = axios.create({
 
 export const userRequest = axios.create({
     baseURL:url/*BASE_URL*/,
-    headers:{token:`Bearer ${authHeader()}`}
+    headers:{token:`Bearer ${TOKEN}`}
 })
