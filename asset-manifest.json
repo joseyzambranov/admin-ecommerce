@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/admin-ecommerce/static/css/main.ec945a23.chunk.css",
-    "main.js": "/admin-ecommerce/static/js/main.7cdab053.chunk.js",
-    "main.js.map": "/admin-ecommerce/static/js/main.7cdab053.chunk.js.map",
+    "main.js": "/admin-ecommerce/static/js/main.8fb72f93.chunk.js",
+    "main.js.map": "/admin-ecommerce/static/js/main.8fb72f93.chunk.js.map",
     "runtime-main.js": "/admin-ecommerce/static/js/runtime-main.9da8687f.js",
     "runtime-main.js.map": "/admin-ecommerce/static/js/runtime-main.9da8687f.js.map",
-    "static/js/2.3b4c9784.chunk.js": "/admin-ecommerce/static/js/2.3b4c9784.chunk.js",
-    "static/js/2.3b4c9784.chunk.js.map": "/admin-ecommerce/static/js/2.3b4c9784.chunk.js.map",
+    "static/js/2.19f8db11.chunk.js": "/admin-ecommerce/static/js/2.19f8db11.chunk.js",
+    "static/js/2.19f8db11.chunk.js.map": "/admin-ecommerce/static/js/2.19f8db11.chunk.js.map",
     "index.html": "/admin-ecommerce/index.html",
     "static/css/main.ec945a23.chunk.css.map": "/admin-ecommerce/static/css/main.ec945a23.chunk.css.map",
-    "static/js/2.3b4c9784.chunk.js.LICENSE.txt": "/admin-ecommerce/static/js/2.3b4c9784.chunk.js.LICENSE.txt"
+    "static/js/2.19f8db11.chunk.js.LICENSE.txt": "/admin-ecommerce/static/js/2.19f8db11.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9da8687f.js",
-    "static/js/2.3b4c9784.chunk.js",
+    "static/js/2.19f8db11.chunk.js",
     "static/css/main.ec945a23.chunk.css",
-    "static/js/main.7cdab053.chunk.js"
+    "static/js/main.8fb72f93.chunk.js"
   ]
 }
